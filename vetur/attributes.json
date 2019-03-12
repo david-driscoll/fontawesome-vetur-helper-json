@@ -1,0 +1,138 @@
+{
+    "font-awesome-icon/border": {
+        "type": "boolean",
+        "description": ""
+    },
+    "font-awesome-icon/fixedWidth": {
+        "type": "boolean",
+        "description": ""
+    },
+    "font-awesome-icon/flip": {
+        "type": "'horizontal' | 'vertical' | 'both'",
+        "description": ""
+    },
+    "font-awesome-icon/icon": {
+        "type": "object | string[] | string",
+        "description": ""
+    },
+    "font-awesome-icon/listItem": {
+        "type": "boolean",
+        "description": ""
+    },
+    "font-awesome-icon/mask": {
+        "type": "object | string[] | string",
+        "description": ""
+    },
+    "font-awesome-icon/pull": {
+        "type": "'right' | 'left'",
+        "description": ""
+    },
+    "font-awesome-icon/pulse": {
+        "type": "boolean",
+        "description": ""
+    },
+    "font-awesome-icon/rotation": {
+        "type": "90 | 180 | 270",
+        "description": ""
+    },
+    "font-awesome-icon/size": {
+        "type": "'lg' | 'xs' | 'sm' | '1x' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x'",
+        "description": ""
+    },
+    "font-awesome-icon/spin": {
+        "type": "boolean",
+        "description": ""
+    },
+    "font-awesome-icon/transform": {
+        "type": "string | object ",
+        "description": ""
+    },
+    "font-awesome-icon/symbol": {
+        "type": "boolean | string",
+        "description": ""
+    },
+    "font-awesome-icon/title": {
+        "type": "string",
+        "description": ""
+    },
+    "fa-icon/border": {
+        "type": "boolean",
+        "description": ""
+    },
+    "fa-icon/fixedWidth": {
+        "type": "boolean",
+        "description": ""
+    },
+    "fa-icon/flip": {
+        "type": "'horizontal' | 'vertical' | 'both'",
+        "description": ""
+    },
+    "fa-icon/icon": {
+        "type": "object | string[] | string",
+        "description": ""
+    },
+    "fa-icon/listItem": {
+        "type": "boolean",
+        "description": ""
+    },
+    "fa-icon/mask": {
+        "type": "object | string[] | string",
+        "description": ""
+    },
+    "fa-icon/pull": {
+        "type": "'right' | 'left'",
+        "description": ""
+    },
+    "fa-icon/pulse": {
+        "type": "boolean",
+        "description": ""
+    },
+    "fa-icon/rotation": {
+        "type": "90 | 180 | 270",
+        "description": ""
+    },
+    "fa-icon/size": {
+        "type": "'lg' | 'xs' | 'sm' | '1x' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x'",
+        "description": ""
+    },
+    "fa-icon/spin": {
+        "type": "boolean",
+        "description": ""
+    },
+    "fa-icon/transform": {
+        "type": "string | object ",
+        "description": ""
+    },
+    "fa-icon/symbol": {
+        "type": "boolean | string",
+        "description": ""
+    },
+    "fa-icon/title": {
+        "type": "string",
+        "description": ""
+    },
+    "font-awesome-layers/fixedWidth": {
+        "type": "boolean",
+        "description": ""
+    },
+    "fa-layers/fixedWidth": {
+        "type": "boolean",
+        "description": ""
+    },
+    "font-awesome-layers-text/value": {
+        "type": "number | string",
+        "description": ""
+    },
+    "font-awesome-layers-text/transform": {
+        "type": "number | object",
+        "description": ""
+    },
+    "fa-layers-text/value": {
+        "type": "number | string",
+        "description": ""
+    },
+    "fa-layers-text/transform": {
+        "type": "number | object",
+        "description": ""
+    }
+}

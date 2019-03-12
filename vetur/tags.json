@@ -1,0 +1,60 @@
+{
+    "font-awesome-icon": {
+        "attributes": [
+            "border",
+            "fixedWidth",
+            "flip",
+            "icon",
+            "mask",
+            "listItem",
+            "pull",
+            "pulse",
+            "rotation",
+            "size",
+            "spin",
+            "transform",
+            "symbol",
+            "title"
+        ]
+    },
+    "fa-icon": {
+        "attributes": [
+            "border",
+            "fixedWidth",
+            "flip",
+            "icon",
+            "mask",
+            "listItem",
+            "pull",
+            "pulse",
+            "rotation",
+            "size",
+            "spin",
+            "transform",
+            "symbol",
+            "title"
+        ]
+    },
+    "font-awesome-layers": {
+        "attributes": [
+            "fixedWidth"
+        ]
+    },
+    "fa-layers": {
+        "attributes": [
+            "fixedWidth"
+        ]
+    },
+    "font-awesome-layers-text": {
+        "attributes": [
+            "value",
+            "transform"
+        ]
+    },
+    "fa-layers-text": {
+        "attributes": [
+            "value",
+            "transform"
+        ]
+    }
+}
