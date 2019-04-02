@@ -1,138 +1,120 @@
 {
-    "font-awesome-icon/border": {
-        "type": "boolean",
-        "description": ""
-    },
-    "font-awesome-icon/fixedWidth": {
-        "type": "boolean",
-        "description": ""
-    },
-    "font-awesome-icon/flip": {
-        "type": "'horizontal' | 'vertical' | 'both'",
-        "description": ""
-    },
-    "font-awesome-icon/icon": {
-        "type": "object | string[] | string",
-        "description": ""
-    },
-    "font-awesome-icon/listItem": {
-        "type": "boolean",
-        "description": ""
-    },
-    "font-awesome-icon/mask": {
-        "type": "object | string[] | string",
-        "description": ""
-    },
-    "font-awesome-icon/pull": {
-        "type": "'right' | 'left'",
-        "description": ""
-    },
-    "font-awesome-icon/pulse": {
-        "type": "boolean",
-        "description": ""
-    },
-    "font-awesome-icon/rotation": {
-        "type": "90 | 180 | 270",
-        "description": ""
-    },
-    "font-awesome-icon/size": {
-        "type": "'lg' | 'xs' | 'sm' | '1x' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x'",
-        "description": ""
-    },
-    "font-awesome-icon/spin": {
-        "type": "boolean",
-        "description": ""
-    },
-    "font-awesome-icon/transform": {
-        "type": "string | object ",
-        "description": ""
-    },
-    "font-awesome-icon/symbol": {
-        "type": "boolean | string",
-        "description": ""
-    },
-    "font-awesome-icon/title": {
-        "type": "string",
-        "description": ""
-    },
-    "fa-icon/border": {
-        "type": "boolean",
-        "description": ""
-    },
-    "fa-icon/fixedWidth": {
-        "type": "boolean",
-        "description": ""
-    },
-    "fa-icon/flip": {
-        "type": "'horizontal' | 'vertical' | 'both'",
-        "description": ""
-    },
-    "fa-icon/icon": {
-        "type": "object | string[] | string",
-        "description": ""
-    },
-    "fa-icon/listItem": {
-        "type": "boolean",
-        "description": ""
-    },
-    "fa-icon/mask": {
-        "type": "object | string[] | string",
-        "description": ""
-    },
-    "fa-icon/pull": {
-        "type": "'right' | 'left'",
-        "description": ""
-    },
-    "fa-icon/pulse": {
-        "type": "boolean",
-        "description": ""
-    },
-    "fa-icon/rotation": {
-        "type": "90 | 180 | 270",
-        "description": ""
-    },
-    "fa-icon/size": {
-        "type": "'lg' | 'xs' | 'sm' | '1x' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x'",
-        "description": ""
-    },
-    "fa-icon/spin": {
-        "type": "boolean",
-        "description": ""
-    },
-    "fa-icon/transform": {
-        "type": "string | object ",
-        "description": ""
-    },
-    "fa-icon/symbol": {
-        "type": "boolean | string",
-        "description": ""
-    },
-    "fa-icon/title": {
-        "type": "string",
-        "description": ""
-    },
-    "font-awesome-layers/fixedWidth": {
-        "type": "boolean",
-        "description": ""
-    },
-    "fa-layers/fixedWidth": {
-        "type": "boolean",
-        "description": ""
-    },
-    "font-awesome-layers-text/value": {
-        "type": "number | string",
-        "description": ""
-    },
-    "font-awesome-layers-text/transform": {
-        "type": "number | object",
-        "description": ""
-    },
-    "fa-layers-text/value": {
-        "type": "number | string",
-        "description": ""
-    },
-    "fa-layers-text/transform": {
-        "type": "number | object",
-        "description": ""
-    }
+  "border": {
+    "type": "boolean",
+    "description": "# Bordered + Pulled Icons\n\n> Occasionally you might want to wrap text around an icon or give it some visual distinction with a border. Here’s how with the support styling we’ve included.",
+    "options": ["true", "false"]
+  },
+  "fixedWidth": {
+    "type": "boolean",
+    "description": "# Fixed Width Icons\n\n> Need to vertically align a series of icons, like in a list or navigation menu? We’ve included a fixed-width support styling for just those cases.\n\nAdd a class of `fa-fw` on the HTML element referencing your icon to set one or more icons to the same fixed width. This is great to use when varying icon widths (e.g. a tall but skinny icon atop a wide but short icon) would throw off vertical alignment. For clarity in the following example, we’ve added a background color on the icon so you can see the fixed width and also bumped up the font-size of the parent element.",
+    "options": ["true", "false"]
+  },
+  "pull": {
+    "type": "'right' | 'left'",
+    "description": "# Bordered + Pulled Icons\n\n> Occasionally you might want to wrap text around an icon or give it some visual distinction with a border. Here’s how with the support styling we’ve included.",
+    "options": ["left", "right"]
+  },
+  "flip": {
+    "type": "'horizontal' | 'vertical' | 'both'",
+    "description": "# Power Transforms\n\n> Thanks to the power of SVG in Font Awesome 5, now you can scale, position, flip, & rotate icons arbitrarily using the `data-fa-transform` element attribute. You can even combine them for some super-useful effects.\n\n## Scaling\n\nPower Transform scaling affects icon size without changing or moving the container. To scale icons up or down, use `grow-#` and `shrink-#` with any arbitrary value, including decimals. Units are 1/16em. For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Positioning\n\nPower Transform positioning affects icon location without changing or moving the container. To move icons up, down, left, or right, use `up-#`, `down-#`, `left-#`, and `right-#` with any arbitrary value, including decimals. Units are 1/16em. For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Rotating & Flipping\n\nPower Transform rotating & flipping affects icon angle and reflection without changing or moving the container. To rotate or flip icons use any combination of `rotate-#`, `flip-v`, and `flip-h` with any arbitrary value. Units are degrees with negative numbers allowed (see fifth icon in the example). For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Did you know?\n\nYou can mix and match any of the power transforms noted above together on a single icon.",
+    "options": ["horizontal", "vertical", "both"]
+  },
+  "rotation": {
+    "type": "90 | 180 | 270",
+    "description": "# Power Transforms\n\n> Thanks to the power of SVG in Font Awesome 5, now you can scale, position, flip, & rotate icons arbitrarily using the `data-fa-transform` element attribute. You can even combine them for some super-useful effects.\n\n## Scaling\n\nPower Transform scaling affects icon size without changing or moving the container. To scale icons up or down, use `grow-#` and `shrink-#` with any arbitrary value, including decimals. Units are 1/16em. For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Positioning\n\nPower Transform positioning affects icon location without changing or moving the container. To move icons up, down, left, or right, use `up-#`, `down-#`, `left-#`, and `right-#` with any arbitrary value, including decimals. Units are 1/16em. For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Rotating & Flipping\n\nPower Transform rotating & flipping affects icon angle and reflection without changing or moving the container. To rotate or flip icons use any combination of `rotate-#`, `flip-v`, and `flip-h` with any arbitrary value. Units are degrees with negative numbers allowed (see fifth icon in the example). For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Did you know?\n\nYou can mix and match any of the power transforms noted above together on a single icon.",
+    "options": ["90", "180", "270"]
+  },
+  "icon": {
+    "type": "object | string[] | string",
+    "description": ""
+  },
+  "listItem": {
+    "type": "boolean",
+    "description": "# Icons in a List\n\n> Building off of the vertical alignment in our fixed-width styling, we added some utility styling to handle HTML lists with icons used as decorative bullets.\n\nUse `fa-ul` and `fa-li` to replace default bullets in unordered lists.",
+    "options": ["true", "false"]
+  },
+  "mask": {
+    "type": "object | string[] | string",
+    "description": "# Masking\n\n> Combine two icons create one single-color shape, thanks to the power of SVG in Font Awesome 5! Use it with our new Power Transforms for some really awesome effects.\n\nMasks are great when you **do** want your background color to show through. For clarity in the example, we’ve added a background color on the icon so you can see the effect."
+  },
+  "pulse": {
+    "type": "boolean",
+    "description": "# Animating Icons\n\n> Need a loading or status communicating-icon to spin? You’ve come to the right place. We’ve included some basic animations in our support styling for you to use.\n\nUse the `fa-spin` class to get any icon to rotate, and use `fa-pulse` to have it rotate with 8 steps. Works especially well with `fa-spinner` & everything in the spinner icons category.",
+    "options": ["true", "false"]
+  },
+  "size": {
+    "type": "'lg' | 'xs' | 'sm' | '1x' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x'",
+    "description": "# Sizing Icons\n\n> Both our Web Fonts + CSS and SVG + JS frameworks include some basic controls for sizing icons in the context of your page’s UI.\n\n## Relative sizing\n\nIcons inherit the `font-size` of their parent container which allow them to match any text you might use with them. With the following classes, we can increase or decrease the size of icons relative to that inherited `font-size`.",
+    "options": [
+      "lg",
+      "xs",
+      "sm",
+      "1x",
+      "2x",
+      "3x",
+      "4x",
+      "5x",
+      "6x",
+      "7x",
+      "8x",
+      "9x",
+      "10x"
+    ]
+  },
+  "spin": {
+    "type": "boolean",
+    "description": "# Animating Icons\n\n> Need a loading or status communicating-icon to spin? You’ve come to the right place. We’ve included some basic animations in our support styling for you to use.\n\nUse the `fa-spin` class to get any icon to rotate, and use `fa-pulse` to have it rotate with 8 steps. Works especially well with `fa-spinner` & everything in the spinner icons category.",
+    "options": ["true", "false"]
+  },
+  "transform": {
+    "type": "string | object ",
+    "description": "# Power Transforms\n\n> Thanks to the power of SVG in Font Awesome 5, now you can scale, position, flip, & rotate icons arbitrarily using the `data-fa-transform` element attribute. You can even combine them for some super-useful effects.\n\n## Scaling\n\nPower Transform scaling affects icon size without changing or moving the container. To scale icons up or down, use `grow-#` and `shrink-#` with any arbitrary value, including decimals. Units are 1/16em. For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Positioning\n\nPower Transform positioning affects icon location without changing or moving the container. To move icons up, down, left, or right, use `up-#`, `down-#`, `left-#`, and `right-#` with any arbitrary value, including decimals. Units are 1/16em. For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Rotating & Flipping\n\nPower Transform rotating & flipping affects icon angle and reflection without changing or moving the container. To rotate or flip icons use any combination of `rotate-#`, `flip-v`, and `flip-h` with any arbitrary value. Units are degrees with negative numbers allowed (see fifth icon in the example). For clarity in the example, we’ve added a background color on the icon so you can see the effect.\n\n## Did you know?\n\nYou can mix and match any of the power transforms noted above together on a single icon.",
+    "options": [
+      "{ size: 16, x: 0, y: 0, flipX: false, flipY: false, rotate: 0 }",
+      "flip-v",
+      "flip-h",
+      "shrink-#",
+      "grow-#",
+      "up-#",
+      "right-#",
+      "down-#",
+      "left-#",
+      "rotate-#"
+    ]
+  },
+  "symbol": {
+    "type": "boolean | string",
+    "description": ""
+  },
+  "title": {
+    "type": "string",
+    "description": "The icon title / alt title"
+  },
+  "font-awesome-layers-text/value": {
+    "type": "number | string",
+    "description": "The value of the text / counter"
+  },
+  "fa-layers-text/value": {
+    "type": "number | string",
+    "description": "The value of the text / counter"
+  },
+  "fa-text/value": {
+    "type": "number | string",
+    "description": "The value of the text / counter"
+  },
+  "font-awesome-layers-text/position": {
+    "type": "string",
+    "description": "The text / counter position",
+    "options": ["bottom-left", "bottom-right", "top-left", "top-right"]
+  },
+  "fa-layers-text/position": {
+    "type": "string",
+    "description": "The text / counter position",
+    "options": ["bottom-left", "bottom-right", "top-left", "top-right"]
+  },
+  "fa-text/position": {
+    "type": "string",
+    "description": "The text / counter position",
+    "options": ["bottom-left", "bottom-right", "top-left", "top-right"]
+  }
 }
