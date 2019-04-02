@@ -1,13 +1,11 @@
 {
   "border": {
     "type": "boolean",
-    "description": "# Bordered + Pulled Icons\n\n> Occasionally you might want to wrap text around an icon or give it some visual distinction with a border. Here’s how with the support styling we’ve included.",
-    "options": ["true", "false"]
+    "description": "# Bordered + Pulled Icons\n\n> Occasionally you might want to wrap text around an icon or give it some visual distinction with a border. Here’s how with the support styling we’ve included."
   },
   "fixedWidth": {
     "type": "boolean",
-    "description": "# Fixed Width Icons\n\n> Need to vertically align a series of icons, like in a list or navigation menu? We’ve included a fixed-width support styling for just those cases.\n\nAdd a class of `fa-fw` on the HTML element referencing your icon to set one or more icons to the same fixed width. This is great to use when varying icon widths (e.g. a tall but skinny icon atop a wide but short icon) would throw off vertical alignment. For clarity in the following example, we’ve added a background color on the icon so you can see the fixed width and also bumped up the font-size of the parent element.",
-    "options": ["true", "false"]
+    "description": "# Fixed Width Icons\n\n> Need to vertically align a series of icons, like in a list or navigation menu? We’ve included a fixed-width support styling for just those cases.\n\nAdd a class of `fa-fw` on the HTML element referencing your icon to set one or more icons to the same fixed width. This is great to use when varying icon widths (e.g. a tall but skinny icon atop a wide but short icon) would throw off vertical alignment. For clarity in the following example, we’ve added a background color on the icon so you can see the fixed width and also bumped up the font-size of the parent element."
   },
   "pull": {
     "type": "'right' | 'left'",
@@ -30,8 +28,7 @@
   },
   "listItem": {
     "type": "boolean",
-    "description": "# Icons in a List\n\n> Building off of the vertical alignment in our fixed-width styling, we added some utility styling to handle HTML lists with icons used as decorative bullets.\n\nUse `fa-ul` and `fa-li` to replace default bullets in unordered lists.",
-    "options": ["true", "false"]
+    "description": "# Icons in a List\n\n> Building off of the vertical alignment in our fixed-width styling, we added some utility styling to handle HTML lists with icons used as decorative bullets.\n\nUse `fa-ul` and `fa-li` to replace default bullets in unordered lists."
   },
   "mask": {
     "type": "object | string[] | string",
@@ -39,8 +36,7 @@
   },
   "pulse": {
     "type": "boolean",
-    "description": "# Animating Icons\n\n> Need a loading or status communicating-icon to spin? You’ve come to the right place. We’ve included some basic animations in our support styling for you to use.\n\nUse the `fa-spin` class to get any icon to rotate, and use `fa-pulse` to have it rotate with 8 steps. Works especially well with `fa-spinner` & everything in the spinner icons category.",
-    "options": ["true", "false"]
+    "description": "# Animating Icons\n\n> Need a loading or status communicating-icon to spin? You’ve come to the right place. We’ve included some basic animations in our support styling for you to use.\n\nUse the `fa-spin` class to get any icon to rotate, and use `fa-pulse` to have it rotate with 8 steps. Works especially well with `fa-spinner` & everything in the spinner icons category."
   },
   "size": {
     "type": "'lg' | 'xs' | 'sm' | '1x' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x'",
@@ -63,8 +59,7 @@
   },
   "spin": {
     "type": "boolean",
-    "description": "# Animating Icons\n\n> Need a loading or status communicating-icon to spin? You’ve come to the right place. We’ve included some basic animations in our support styling for you to use.\n\nUse the `fa-spin` class to get any icon to rotate, and use `fa-pulse` to have it rotate with 8 steps. Works especially well with `fa-spinner` & everything in the spinner icons category.",
-    "options": ["true", "false"]
+    "description": "# Animating Icons\n\n> Need a loading or status communicating-icon to spin? You’ve come to the right place. We’ve included some basic animations in our support styling for you to use.\n\nUse the `fa-spin` class to get any icon to rotate, and use `fa-pulse` to have it rotate with 8 steps. Works especially well with `fa-spinner` & everything in the spinner icons category."
   },
   "transform": {
     "type": "string | object ",
